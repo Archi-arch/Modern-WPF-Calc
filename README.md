@@ -21,8 +21,8 @@ A state-of-the-art desktop calculator built with **WPF (.NET 10)** leveraging th
 
 ### 🎨 UI Theme Showcase
 
-| 🌙 Obsidian Dark Theme | ☀️ Muted Slate Light Theme |
-| :---: | :---: |
+|                          🌙 Obsidian Dark Theme                           |                           ☀️ Muted Slate Light Theme                           |
+| :-----------------------------------------------------------------------: | :----------------------------------------------------------------------------: |
 | <img src="assets/screenshot.png" alt="Obsidian Dark Theme" width="360" /> | <img src="assets/screenshot2.png" alt="Muted Slate Light Theme" width="360" /> |
 
 ---
@@ -93,7 +93,7 @@ Calculator/
 
    ```bash
    git clone https://github.com/Archi-arch/Modern-WPF-Calc.git
-   cd Modern-WPF-Calc/Calculator
+   cd Modern-WPF-Calc/
    ```
 
 2. Build and run the project:
