@@ -19,6 +19,7 @@ A state-of-the-art desktop calculator built with **WPF (.NET 10)** leveraging th
 
 <p align="center">
   <img src="assets/screenshot.png" alt="Calculator UI Screenshot" width="340" />
+  <img src="assets/screenshot2.png" alt="Calculator Preview 2" width="340" />
 </p>
 
 ---
@@ -86,6 +87,7 @@ Calculator/
 ### Installation & Run:
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/Archi-arch/Modern-WPF-Calc.git
    cd Modern-WPF-Calc/Calculator
