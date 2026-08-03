@@ -1,0 +1,65 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!-- Backgrounds -->
+    <Color x:Key="BgObsidianColor">#0F1017</Color>
+    <Color x:Key="BgCardColor">#181A26</Color>
+    <Color x:Key="BgCardHoverColor">#222536</Color>
+    <Color x:Key="BgCardPressedColor">#2A2E44</Color>
+    <Color x:Key="BgGlassPanelColor">#141622</Color>
+    <Color x:Key="BorderGlowColor">#2E334D</Color>
+
+    <!-- Accent & Highlights -->
+    <Color x:Key="NeonCyanColor">#00E5FF</Color>
+    <Color x:Key="NeonCyanHoverColor">#33ECFF</Color>
+    <Color x:Key="AccentPurpleColor">#7C4DFF</Color>
+    <Color x:Key="AccentPurpleHoverColor">#996EFF</Color>
+    <Color x:Key="EqualsOrangeColor">#FF9100</Color>
+    <Color x:Key="EqualsOrangeHoverColor">#FFA733</Color>
+    <Color x:Key="DangerRedColor">#FF5252</Color>
+
+    <!-- Text -->
+    <Color x:Key="TextPrimaryColor">#FFFFFF</Color>
+    <Color x:Key="TextSecondaryColor">#8E95B3</Color>
+    <Color x:Key="TextMutedColor">#5C6280</Color>
+
+    <!-- Brushes -->
+    <SolidColorBrush x:Key="BgObsidianBrush" Color="{StaticResource BgObsidianColor}" />
+    <SolidColorBrush x:Key="BgCardBrush" Color="{StaticResource BgCardColor}" />
+    <SolidColorBrush x:Key="BgCardHoverBrush" Color="{StaticResource BgCardHoverColor}" />
+    <SolidColorBrush x:Key="BgCardPressedBrush" Color="{StaticResource BgCardPressedColor}" />
+    <SolidColorBrush x:Key="BgGlassPanelBrush" Color="{StaticResource BgGlassPanelColor}" />
+    <SolidColorBrush x:Key="BorderGlowBrush" Color="{StaticResource BorderGlowColor}" />
+
+    <SolidColorBrush x:Key="NeonCyanBrush" Color="{StaticResource NeonCyanColor}" />
+    <SolidColorBrush x:Key="AccentPurpleBrush" Color="{StaticResource AccentPurpleColor}" />
+    <SolidColorBrush x:Key="EqualsOrangeBrush" Color="{StaticResource EqualsOrangeColor}" />
+    <SolidColorBrush x:Key="EqualsOrangeHoverBrush" Color="{StaticResource EqualsOrangeHoverColor}" />
+    <SolidColorBrush x:Key="DangerRedBrush" Color="{StaticResource DangerRedColor}" />
+
+    <SolidColorBrush x:Key="TextPrimaryBrush" Color="{StaticResource TextPrimaryColor}" />
+    <SolidColorBrush x:Key="TextSecondaryBrush" Color="{StaticResource TextSecondaryColor}" />
+    <SolidColorBrush x:Key="TextMutedBrush" Color="{StaticResource TextMutedColor}" />
+
+    <!-- Linear Gradients for Buttons -->
+    <LinearGradientBrush x:Key="EqualsGradientBrush" StartPoint="0,0" EndPoint="1,1">
+        <GradientStop Color="#FF9100" Offset="0"/>
+        <GradientStop Color="#FF6D00" Offset="1"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="EqualsHoverGradientBrush" StartPoint="0,0" EndPoint="1,1">
+        <GradientStop Color="#FFA733" Offset="0"/>
+        <GradientStop Color="#FF8000" Offset="1"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="ScientificGradientBrush" StartPoint="0,0" EndPoint="1,1">
+        <GradientStop Color="#1E2235" Offset="0"/>
+        <GradientStop Color="#151726" Offset="1"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="WindowHeaderGradient" StartPoint="0,0" EndPoint="1,0">
+        <GradientStop Color="#12131C" Offset="0"/>
+        <GradientStop Color="#181A26" Offset="1"/>
+    </LinearGradientBrush>
+
+</ResourceDictionary>
