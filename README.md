@@ -12,11 +12,10 @@ A state-of-the-art desktop calculator built with **WPF (.NET 10)** leveraging th
 
 ## 📸 App Preview
 
-### 🎬 Live Feature Demonstrations
-
-| Standard Mode & Theme Toggle | Scientific Mode & History Drawer |
-| :---: | :---: |
-| <img src="assets/gif1.gif" alt="Standard Mode & Theme Toggle" width="380" /> | <img src="assets/gif2.gif" alt="Scientific Mode & Calculation History" width="380" /> |
+<p align="center">
+  <img src="assets/gif1.gif" width="48%" />
+  <img src="assets/gif2.gif" width="48%" />
+</p>
 
 <br />
 
