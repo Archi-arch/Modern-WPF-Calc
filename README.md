@@ -12,15 +12,19 @@ A state-of-the-art desktop calculator built with **WPF (.NET 10)** leveraging th
 
 ## 📸 App Preview
 
-<p align="center">
-  <img src="assets/gif1.gif" alt="Standard Mode & Theme Toggle" width="48%" />
-  <img src="assets/gif2.gif" alt="Scientific Mode & Calculation History" width="48%" />
-</p>
+### 🎬 Live Feature Demonstrations
 
-<p align="center">
-  <img src="assets/screenshot.png" alt="Calculator UI Screenshot" width="340" />
-  <img src="assets/screenshot2.png" alt="Calculator Preview 2" width="340" />
-</p>
+| Standard Mode & Theme Toggle | Scientific Mode & History Drawer |
+| :---: | :---: |
+| <img src="assets/gif1.gif" alt="Standard Mode & Theme Toggle" width="380" /> | <img src="assets/gif2.gif" alt="Scientific Mode & Calculation History" width="380" /> |
+
+<br />
+
+### 🎨 UI Theme Showcase
+
+| 🌙 Obsidian Dark Theme | ☀️ Muted Slate Light Theme |
+| :---: | :---: |
+| <img src="assets/screenshot.png" alt="Obsidian Dark Theme" width="360" /> | <img src="assets/screenshot2.png" alt="Muted Slate Light Theme" width="360" /> |
 
 ---
 
@@ -59,7 +63,7 @@ Built adhering to **Clean Architecture** and **MVVM** separation of concerns:
 
 ```
 Calculator/
-├── assets/                      # UI Screenshots & Demo GIFs (gif1.gif, gif2.gif, screenshot.png)
+├── assets/                      # UI Screenshots & Demo GIFs (gif1.gif, gif2.gif, screenshot.png, screenshot2.png)
 ├── Core/                        # [Domain Layer - Pure Business Logic]
 │   ├── Models/                  # CalculationItem Data Model
 │   └── Services/                # CalculatorEngine, HistoryService, ThemeService
